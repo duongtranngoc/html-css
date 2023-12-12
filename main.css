@@ -1,0 +1,54 @@
+:root {
+    /* biến global (toàn cục) được sử dụng trong toàn file */
+    --main-color: slateblue
+}
+
+ol li {
+    color: blue;
+}
+
+/* ============================== Css file 4 ============================== */
+#selector-id {
+    color: red;
+}
+
+.selector-class {
+    color: black;
+    font-size: 30px;
+}
+
+/* ============================== Css file 5 ============================== */
+.ws-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    border: 1px solid #ccc;
+}
+
+.ws-table-all tr:nth-child(even) {
+    background-color: #E7E9EB;
+}
+
+.ws-table-all td,
+.ws-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* ============================== Css file 7 ============================== */
+.lesson-7 h1 {
+    /* Biến local sử dụng trong phạm vi đặt biến */
+    --main-color: red;
+    color: var(--main-color);
+}
+
+.lesson-7 h2 {
+    color: var(--main-color);
+}
+
+.lesson-7 h3 {
+    color: var(--main-color);
+}

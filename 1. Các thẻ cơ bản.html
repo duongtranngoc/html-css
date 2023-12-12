@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Các thẻ html thông dụng
+        1. h1- h6
+        2. p
+        3. img
+        4. a
+        5. ul, li
+        6. table
+        7. input
+        8. button
+        9. div -->
+
+    <!-- 1. <h1>, <h2>, ..., <h6> - Heading:
+        - Tên: h là viết tắt của "heading", số sau đó chỉ mức độ quan trọng của tiêu đề.
+        - Ý nghĩa:  Các thẻ heading được sử dụng để định nghĩa các tiêu đề trong một trang web.
+                    <h1> là tiêu đề lớn nhất và <h6> là tiêu đề nhỏ nhất. -->
+    <div>
+        <h1>Đây là thẻ h</h1>
+    </div>
+
+    <!-- 2. <p> - Paragraph:
+        - Tên: Viết tắt của "paragraph".
+        - Ý nghĩa:  Thẻ <p> được sử dụng để đánh dấu đoạn văn bản,
+                    tạo ra một đơn vị văn bản riêng biệt trong trang web. -->
+    <div>
+        <p>Đây là thẻ p</p>
+    </div>
+
+    <!-- 3. <img> - Image:
+        - Tên: Viết tắt của "image".
+        - Ý nghĩa: Thẻ <img> được sử dụng để nhúng hình ảnh trong trang web. -->
+    <div>
+        <img src="./my-face.jpeg" alt="Đây là phần hiển thị nội dung bức ảnh"></img>
+    </div>
+
+    <!-- 4. <a> - Anchor:
+        - Tên: Viết tắt của "anchor".
+        - Ý nghĩa:  Thẻ <a> được sử dụng để tạo liên kết (hyperlink) đến các trang khác,
+                    tài liệu hoặc tài nguyên trên internet. -->
+    <div>
+        <a href="https://www.facebook.com/duongtranngoc.info">Đây là thẻ a</a>
+    </div>
+
+    <!-- 5. <ul>, <li> - Unordered List, List Item:
+        - <ul>:
+            - Tên: Viết tắt của "unordered list".
+            - Ý nghĩa:  Thẻ <ul> được sử dụng để tạo danh sách không có thứ tự,
+                        nơi các mục không được đánh số.
+        - <li>:
+            - Tên: Viết tắt của "list item".
+            - Ý nghĩa: Thẻ <li> được sử dụng để định nghĩa từng mục trong danh sách. -->
+    <div>
+        <ul> Đây là thẻ ul
+            <li>Đây là thẻ li 1</li>
+            <li>Đây là thẻ li 2</li>
+            <li>Đây là thẻ li 3</li>
+            <li>Đây là thẻ li 4</li>
+        </ul>
+    </div>
+
+    <!-- 6. <table>:
+        - Tên: Đơn giản là "table".
+        - Ý nghĩa:  Thẻ <table> được sử dụng để tạo bảng trên trang web,
+                    với các ô dữ liệu được đặt trong các hàng và cột. -->
+    <div>
+        <table>
+            <!-- Phần đầu của bảng -->
+            <thead>
+                <!-- th- table heading -->
+                <th>STT</th>
+                <th>Name</th>
+                <th>Address</th>
+            </thead>
+
+            <!-- Phần thân của bảng -->
+            <tbody>
+                <!-- tr- table row -->
+                <tr>
+                    <!-- td- table row
+                    Số lượng thẻ td tương ứng với số lượng thẻ th -->
+                    <td>1</td>
+                    <td>Dương Trần</td>
+                    <td>Đống Đa</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Dương Trần</td>
+                    <td>Hà Nội</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 7. <input>:
+        - Tên: Viết tắt của "input".
+        - Ý nghĩa: Thẻ <input> được sử dụng để tạo các ô nhập liệu, như hộp văn bản, nút radio, nút checkbox, v.v. -->
+    <div>
+        <div>
+            <!-- Type mặc định là text dùng để nhập các ký tự -->
+            <input type="text">
+        </div>
+        <div>
+            <!-- Dùng để tạo ô chọn hình ô vuông, cho phép người dùng có thể chọn hoặc bỏ chọn nhiều tùy chọn cùng lúc.
+            Mỗi ô checkbox độc lập với các ô khác. -->
+            <input type="checkbox" name="vehicle" value="Car"> I have a car
+            <input type="checkbox" name="vehicle" value="Bike"> I have a bike
+            <input type="checkbox" name="vehicle" value="Boat"> I have a boat
+        </div>
+        <div>
+            <!-- Dùng để tạo ô chọn hình tròn, cho phép người dùng chỉ chọn một tùy chọn duy nhất từ một nhóm các tùy chọn.
+            Tất cả các radio button cùng một nhóm phải có cùng một thuộc tính name để hình thành một nhóm. -->
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </div>
+    </div>
+
+    <!-- 8. <button>:
+        - Tên: Đơn giản là "button".
+        - Ý nghĩa:  Thẻ <button> được sử dụng để tạo nút trên trang web,
+                    thường được kích hoạt để thực hiện một hành động cụ thể. -->
+    <div>
+        <button>Đây là thẻ button</button>
+    </div>
+
+    <!-- 9. <div>:
+        - Tên: Viết tắt của "division".
+        - Ý nghĩa:  Thẻ <div> được sử dụng để nhóm các phần tử HTML lại với nhau và tạo ra một khối (block) có thể được kiểm soát bằng CSS hoặc JavaScript.
+                    Nó thường được sử dụng để tổ chức và làm cấu trúc cho trang web. -->
+</body>
+
+</html>

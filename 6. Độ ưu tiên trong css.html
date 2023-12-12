@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <ol>
+            <li>Inline: Độ ưu tiên cao nhất. Bất kỳ quy tắc CSS nào được áp dụng trực tiếp trong thuộc tính style của
+                một phần tử sẽ có độ ưu tiên cao hơn bất kỳ loại selector nào khác.</li>
+            <li>Internal: Cao hơn so với External Styles và Universal Selector. Thấp hơn so với Inline Styles và
+                Important.</li>
+            <li>External: Có độ ưu tiên thấp hơn so với Inline Styles, Internal Styles, Important. Cao hơn Universal
+                Selector.</li>
+            <li>#id: Cao hơn so với Class, Tag, và Universal Selector. Thấp hơn Inline Styles và Important.</li>
+            <li>.class: Cao hơn so với Tag và Universal Selector. Thấp hơn ID Selector. Thứ tự ưu tiên giữa Class,
+                Attribute, và Pseudo-Class là như nhau.</li>
+            <li>tag: Có độ ưu tiên thấp hơn so với Class, ID, và Universal Selector. Thấp hơn Important.</li>
+            <li>Equal specificity: cùng 1 thành phần css, cái nào có nhiều độ ưu tiên hơn thì sẽ được dùng, nếu 2 cái có
+                độ ưu tiên bằng nhau thì cái nào gọi sau cái đó được dùng</li>
+            <li>Universal selector and inherited: Độ ưu tiên của universal selector thấp hơn nhiều so với các loại
+                selector khác.</li>
+            <li>Important: Cao nhất. Tuy nhiên, nên tránh sử dụng !important nếu có thể, vì nó có thể làm cho mã CSS trở
+                nên khó bảo trì.</li>
+        </ol>
+    </div>
+</body>
+
+</html>
